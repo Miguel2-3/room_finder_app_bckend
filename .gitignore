@@ -1,0 +1,38 @@
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+build/
+dist/
+*.egg-info/
+
+# Security/Credentials
+*.key
+*.pem
+*.cert
+*.crt
+*.pfx
+*.p12
+*.gpg
+*.pub
+*.sig
+secrets.json
+config.json
+
+# IDE/System files that might contain paths/secrets
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.bak
