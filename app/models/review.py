@@ -9,6 +9,7 @@ class Review(Base):
 
     rating = Column(Integer, nullable=False)  # 1–5
     comment = Column(String, nullable=True)
+    reply = Column(String, nullable=True)
 
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
     boarding_house_id = Column(Integer, ForeignKey("boarding_houses.id"), nullable=False)
